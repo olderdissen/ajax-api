@@ -8,4 +8,6 @@ after i invesigated a widle known public open source ajax component, i decided t
 
 	new XMLHttpRequest()
 	new ActiveXObject("Microsoft.XMLHTTP")
+	
+	ajax({ url : 'file.php?action=info', success : document_info_success })
 
